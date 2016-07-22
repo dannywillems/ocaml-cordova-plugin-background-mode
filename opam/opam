@@ -1,5 +1,5 @@
 opam-version: "1.2"
-name: "ocaml-cordova-plugin-background-mode"
+name: "cordova-plugin-background-mode"
 version: "1.0"
 maintainer: "Omar, Danny Willems (contact@danny-willems.be)"
 authors: "Omar"
