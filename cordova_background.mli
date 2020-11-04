@@ -28,6 +28,9 @@ val onfailure : unit -> unit
 val set_onfailure : (unit -> unit) -> unit
   [@@js.set "cordova.plugins.backgroundMode.onfailure"]
 
+val on : string -> (unit -> unit) -> unit
+  [@@js.global "cordova.plugins.backgroundMode.on"]
+
 type config
 
 val create_config :
