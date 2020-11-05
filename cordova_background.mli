@@ -31,6 +31,12 @@ val set_onfailure : (unit -> unit) -> unit
 val on : string -> (unit -> unit) -> unit
   [@@js.global "cordova.plugins.backgroundMode.on"]
 
+val disable_web_view_optimizations : unit -> unit
+  [@@js.global "cordova.plugins.backgroundMode.disableWebViewOptimizations"]
+
+val disable_battery_optimizations : unit -> unit
+  [@@js.global "cordova.plugins.backgroundMode.disableBatteryOptimizations"]
+
 type config
 
 val create_config :
