@@ -1,5 +1,6 @@
 opam-version: "1.2"
 name: "cordova-plugin-background-mode"
+synopsis: "Binding to cordova-plugin-background-mode plugin"
 version: "1.0"
 maintainer: "Omar, Danny Willems (contact@danny-willems.be)"
 authors: "Omar"
@@ -7,7 +8,7 @@ homepage: "https://github.com/dannywillems/ocaml-cordova-plugin-background-mode"
 bug-reports:
   "https://github.com/dannywillems/ocaml-cordova-plugin-background-mode/issues"
 license: "LGPL-3.0 with OCaml linking exception"
-dev-repo: "https://github.com/dannywillems/ocaml-cordova-plugin-background-mode"
+dev-repo: "git+https://github.com/dannywillems/ocaml-cordova-plugin-background-mode"
 build: [
   [make]
 ]
